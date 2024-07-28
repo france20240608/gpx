@@ -1,0 +1,5 @@
+com.gpx.common.security.config.WebMvcConfig
+com.gpx.common.security.service.TokenService
+com.gpx.common.security.aspect.PreAuthorizeAspect
+com.gpx.common.security.aspect.InnerAuthAspect
+com.gpx.common.security.handler.GlobalExceptionHandler

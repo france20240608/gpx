@@ -1,0 +1,3 @@
+com.gpx.system.api.factory.RemoteUserFallbackFactory
+com.gpx.system.api.factory.RemoteLogFallbackFactory
+com.gpx.system.api.factory.RemoteFileFallbackFactory

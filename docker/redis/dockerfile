@@ -1,0 +1,13 @@
+# 基础镜像
+FROM redis
+# author
+MAINTAINER gpx
+
+# 挂载目录
+VOLUME /home/gpx/redis
+# 创建目录
+RUN mkdir -p /home/gpx/redis
+# 指定路径
+WORKDIR /home/gpx/redis
+# 复制conf文件到路径
+COPY ./conf/redis.conf /home/gpx/redis/redis.conf

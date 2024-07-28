@@ -1,0 +1,3 @@
+# com.gpx.common.swagger.config.SwaggerAutoConfiguration
+# com.gpx.common.swagger.config.SwaggerWebConfiguration
+# com.gpx.common.swagger.config.SwaggerBeanPostProcessor
